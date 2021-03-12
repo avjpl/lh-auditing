@@ -1,0 +1,21 @@
+{
+  "name": "lighthouse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --ignore-path .gitignore \"./**/*.+(js|json)\" \"./config/**/*.+(js|json)\"",
+    "format": "yarn prettier --write",
+    "format:check": "yarn prettier --check"
+  },
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "camelcase-keys": "^6.2.2",
+    "conflab": "^2.1.3",
+    "lighthouse": "^7.2.0",
+    "puppeteer": "^8.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
